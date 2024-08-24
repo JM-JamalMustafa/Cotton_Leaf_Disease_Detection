@@ -20,13 +20,13 @@ pip install -r requirements.txt
 
 Download the model file: Place the model_inceptionv3.h5 file in the project directory as specified in MODEL_PATH.
 
-Run the application:
+# Run the application:
 
 python app.py
 Access the web application: Open your browser and go to http://127.0.0.1:5001/.
 
 Usage
-
+![results1](https://github.com/user-attachments/assets/a66f1290-0dff-435f-bbdb-c6eb6178b118)
 Upload an image of a cotton leaf or plant through the web interface.
 The model will process the image and predict whether it is a diseased cotton leaf, diseased cotton plant, fresh cotton leaf, or fresh cotton plant.
 The result will be displayed on the same page.
