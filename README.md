@@ -8,19 +8,16 @@ Image Preprocessing: Images are preprocessed using TensorFlow's Keras utilities,
 GPU Support: The application is configured to utilize GPU resources efficiently, allowing for faster predictions.
 File Upload Handling: Users can upload images through the web interface, and the application will display the prediction results.
 Files
-# app.py: The main file containing the Flask application.
-# model_inceptionv3.h5: The pre-trained model used for prediction.
-# index.html: The main page template for the web application.
-Installation
+app.py: The main file containing the Flask application.
+model_inceptionv3.h5: The pre-trained model used for prediction.
+index.html: The main page template for the web application.
+# Installation
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/yourusername/cotton-leaf-disease-detection.git
 cd cotton-leaf-disease-detection
 # Install the required dependencies:
-
 pip install -r requirements.txt
+
 Download the model file: Place the model_inceptionv3.h5 file in the project directory as specified in MODEL_PATH.
 
 Run the application:
